@@ -1,4 +1,8 @@
-     Banglore_Houseprice_prediction
+Inline-style: 
+![alt text]https://github.com/avinashnair02/Banglore_Houseprice_prediction/blob/main/webpage.PNG  
+  
+  
+  Banglore_Houseprice_prediction
 Used a banglore house dataset to predict the price of the houses in the various regions in Banglore
 
 
