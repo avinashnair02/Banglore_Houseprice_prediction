@@ -1,5 +1,4 @@
-
-  
+![](webpage.PNG)
   
   Banglore_Houseprice_prediction
 Used a banglore house dataset to predict the price of the houses in the various regions in Banglore
@@ -13,10 +12,14 @@ Building an interative website using html,css,javascipt that allow user to enter
 Technology and tool used for the project:
 
 
-*Numpy and Pandas for data cleaning
-*Matplotlib for data visualization
-*Sklearn for model building
-*Jupyter notebook, visual studio code and spyder as IDE
-*Python flask for http server
-*HTML/CSS/Javascript for UI
+1.Numpy and Pandas for data cleaning
+2.Matplotlib for data visualization
+3.Sklearn for model building
+4.Jupyter notebook, visual studio code and spyder as IDE
+5Python flask for http server
+6.Used postman to see the get and the post command
+7.HTML/CSS/Javascript for UI
+
+
+![](postman.PNG)
 
