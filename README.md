@@ -1,5 +1,4 @@
-Inline-style: 
-![alt text]https://github.com/avinashnair02/Banglore_Houseprice_prediction/blob/main/webpage.PNG  
+
   
   
   Banglore_Houseprice_prediction
