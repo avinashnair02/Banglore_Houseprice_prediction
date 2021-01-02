@@ -10,11 +10,10 @@ Building an interative website using html,css,javascipt that allow user to enter
 Technology and tool used for the project:
 
 
-Python
-Numpy and Pandas for data cleaning
-Matplotlib for data visualization
-Sklearn for model building
-Jupyter notebook, visual studio code and spyder as IDE
-Python flask for http server
-HTML/CSS/Javascript for UI
+*Numpy and Pandas for data cleaning
+*Matplotlib for data visualization
+*Sklearn for model building
+*Jupyter notebook, visual studio code and spyder as IDE
+*Python flask for http server
+*HTML/CSS/Javascript for UI
 
