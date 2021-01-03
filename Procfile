@@ -1,1 +1,0 @@
-web:nginx server:app
