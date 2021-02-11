@@ -1,4 +1,4 @@
-![](webpage.PNG)
+![](UI.png)
   
   Banglore_Houseprice_prediction
 Used a Banglore house dataset to predict the price of the houses in the various regions in Banglore
