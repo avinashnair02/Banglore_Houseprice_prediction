@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 @app.route('/')
 def home():
-   return render_template('./client/app.html')
+   return render_template('app.html')
 
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
