@@ -8,7 +8,8 @@ __model = None
 def get_round(x):
    # with open('./artifacts/banglore_home_prices_model.pickle, 'rb') as f:
         #__model1 = pickle.load(f)
-    return round(__model1.predict([x])[0],2)
+    #return round(__model1.predict([x])[0],2)
+   return 55.5
 
               
     
