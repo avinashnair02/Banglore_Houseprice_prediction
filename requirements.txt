@@ -1,7 +1,6 @@
 certifi==2020.12.5
 cycler==0.10.0
 Flask-JSON==0.3.4
-python=3.8.5=h5fd99cc_1
 kiwisolver==1.3.1
 matplotlib==3.3.4
 Pillow==8.1.0
