@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 __locations = None
-__data_columns = None
+__data_columns = []
 __model = None
 
 def get_estimated_price(location,sqft,bhk,bath):
