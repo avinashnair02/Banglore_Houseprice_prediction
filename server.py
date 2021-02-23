@@ -20,6 +20,7 @@ def predict_home_price():
     bhk = int(request.form['bhk'])
     bath = int(request.form['bath'])
     print(location,bhk,bath)
+    print("location",util.get_location_names())
 
     response = jsonify({
         'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
