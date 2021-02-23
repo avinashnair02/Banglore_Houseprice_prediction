@@ -8,11 +8,14 @@ __model = None
 
 def get_estimated_price(location,sqft,bhk,bath):
     try:
-        loc_index = __data_columns.index(location.lower())
+        with open("./artifacts/columns.json", "r") as f:
+            __data_c = json.load(f)['data_columns']
+            print("HEllo ", __data_c)
+            loc_index = __data_c.index(location.lower())
     except:
         loc_index = -1
 
-    x = np.zeros(len(__data_columns))
+    x = np.zeros(len(__data_c))
     x[0] = sqft
     x[1] = bath
     x[2] = bhk
