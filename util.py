@@ -5,6 +5,12 @@ import numpy as np
 __locations = None
 __data_columns = []
 __model = None
+def get_round(x):
+    with open('./artifacts/banglore_home_prices_model.pickle, 'rb') as f:
+              __model1 = pickle.load(f)
+              return round(__model1.predict([x])[0],2)
+              
+    
 
 def get_estimated_price(location,sqft,bhk,bath):
     try:
@@ -22,7 +28,8 @@ def get_estimated_price(location,sqft,bhk,bath):
     if loc_index>=0:
         x[loc_index] = 1
 
-    return round(__model.predict([x])[0],2)
+
+    return get_round(x):
 
 
 def load_saved_artifacts():
@@ -36,7 +43,7 @@ def load_saved_artifacts():
 
     global __model
     if __model is None:
-        with open('./artifacts/banglore_home_prices_model.pickle', 'rb') as f:
+        with open('./artifacts/banglore_home_prices_model.pickle, 'rb') as f:
             __model = pickle.load(f)
     print("loading saved artifacts...done")
 
