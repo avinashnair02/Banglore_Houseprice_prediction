@@ -38,7 +38,7 @@ def load_saved_artifacts():
     print("loading saved artifacts...done")
 
 def get_location_names():
-   with open("./artifacts/columns.json", "r") as f:
+    with open("./artifacts/columns.json", "r") as f:
         __data_c = json.load(f)['data_columns']
         print("HEllo ", __data_c)
     return __locations
