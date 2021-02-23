@@ -33,7 +33,7 @@ def get_estimated_price(location,sqft,bhk,bath):
         x[loc_index] = 1
 
 
-    return get_round(x):
+    return get_round(x)
 
 
 def load_saved_artifacts():
