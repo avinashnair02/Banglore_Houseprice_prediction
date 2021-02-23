@@ -3,15 +3,15 @@ import json
 import numpy as np
 
 __locations = None
-__data_columns = []
-__model = []
+__data_columns = None
+__model = None
 
 def get_estimated_price(location,sqft,bhk,bath):
     try:
         loc_index = __data_columns.index(location.lower())
     except:
         loc_index = -1
-    print("\n\n\n\n\n hello",len( __data_columns))
+
     x = np.zeros(len(__data_columns))
     x[0] = sqft
     x[1] = bath
