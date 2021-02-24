@@ -53,7 +53,7 @@ def get_location_names():
     with open("./artifacts/columns.json", "r") as f:
         __data_c = json.load(f)['data_columns']
         print("HEllo ", __data_c)
-    return __locations
+    return __data_c
 
 def get_data_columns():
     return __data_columns
